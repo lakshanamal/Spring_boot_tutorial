@@ -48,7 +48,7 @@ public class Student {
         this.setAge(age);
     }
  
-    public Student(Long id, String name, LocalDate dob, String email, Integer age) {
+    public Student(Long id, String name, String email, LocalDate dob, Integer age) {
         this.setId(id);
         this.setName(name);
         this.setDob(dob);
